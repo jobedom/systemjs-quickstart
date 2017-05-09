@@ -14,6 +14,7 @@ System.config({
    },
 
    map: {
+      "lodash": "npm:lodash@4.17.4",
       "ts": "npm:typescript@2.3.2",
       "ts-runtime": "npm:babel-runtime@5.8.38",
       "typescript": "npm:typescript@2.3.2",
@@ -326,9 +327,6 @@ System.config({
       },
       "npm:string_decoder@0.10.31": {
          "buffer": "github:jspm/nodelibs-buffer@0.1.1"
-      },
-      "npm:systemjs-hot-reloader@1.1.0": {
-         "systemjs-hmr": "npm:systemjs-hmr@2.0.9"
       },
       "npm:timers-browserify@1.4.2": {
          "process": "npm:process@0.11.10"
