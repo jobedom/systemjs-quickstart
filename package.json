@@ -4,18 +4,23 @@
    "private": true,
    "scripts": {},
    "devDependencies": {
+      "@types/bluebird": "^3.5.3",
       "@types/lodash": "^4.14.64",
       "@types/moment": "^2.13.0",
+      "@types/mousetrap": "^1.5.33",
+      "@types/superagent": "^2.0.36",
       "eslint": "^3.19.0",
-      "http-server": "^0.10.0",
       "jspm": "^0.16.53",
       "stylint": "^1.5.9"
    },
    "dependencies": {},
    "jspm": {
       "dependencies": {
+         "bluebird": "npm:bluebird@^3.5.0",
          "lodash": "npm:lodash@^4.17.4",
-         "moment": "npm:moment@^2.18.1"
+         "moment": "npm:moment@^2.18.1",
+         "mousetrap": "npm:mousetrap@^1.6.1",
+         "superagent": "npm:superagent@^3.5.2"
       },
       "devDependencies": {
          "typescript": "npm:typescript@^2.0.7"

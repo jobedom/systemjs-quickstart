@@ -1,6 +1,7 @@
 import test from 'test'
 import { map, range } from 'lodash'
 import moment from 'moment'
+import mousetrap from 'mousetrap'
 
 window.document.title = 'EPA!'
 document.body.innerHTML = 'test ' + test(103)
@@ -11,3 +12,6 @@ console.log('result', result)
 const today = moment()
 const str = today.format('*** dddd, D/MMMM/YYYY')
 console.log('str', str)
+mousetrap.bind('ctrl+g', () => {
+   console.log('Epa!')
+})
