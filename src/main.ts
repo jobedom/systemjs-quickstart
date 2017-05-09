@@ -1,7 +1,7 @@
-import test from 'test'
-import { map, range } from 'lodash'
-import moment from 'moment'
-import mousetrap from 'mousetrap'
+import moment from 'moment';
+import mousetrap from 'mousetrap';
+import test from 'test';
+import { map, range } from 'lodash';
 
 window.document.title = 'EPA!'
 document.body.innerHTML = 'test ' + test(103)
