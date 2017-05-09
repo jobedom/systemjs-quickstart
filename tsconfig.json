@@ -1,0 +1,22 @@
+{
+   "compileOnSave": true,
+   "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "baseUrl": "./src",
+      "inlineSourceMap": true,
+      "allowJs": false,
+      "watch": true,
+      "moduleResolution": "node",
+      "preserveConstEnums": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "removeComments": true,
+      "noImplicitAny": false,
+      "isolatedModules": true
+   },
+   "exclude": [
+      "node_modules",
+      "jspm_packages"
+   ]
+}

@@ -1,0 +1,52 @@
+{
+   "blocks": false,
+   "brackets": "never",
+   "colons": "never",
+   "colors": false,
+   "commaSpace": "always",
+   "commentSpace": "always",
+   "cssLiteral": "never",
+   "customProperties": [],
+   "depthLimit": false,
+   "duplicates": true,
+   "efficient": "always",
+   "exclude": [
+      "node_modules/**/*"
+   ],
+   "extendPref": "@extends",
+   "globalDupe": true,
+   "groupOutputByFile": true,
+   "indentPref": 2,
+   "leadingZero": "always",
+   "maxErrors": false,
+   "maxWarnings": false,
+   "mixed": false,
+   "mixins": [],
+   "namingConvention": "camelCase",
+   "namingConventionStrict": true,
+   "noImportant": false,
+   "none": "always",
+   "parenSpace": "never",
+   "placeholders": "always",
+   "prefixVarsWithDollar": "always",
+   "quotePref": "double",
+   "reporterOptions": {
+      "columnSplitter": "  ",
+      "columns": [
+         "lineData",
+         "severity",
+         "description",
+         "rule"
+      ],
+      "showHeaders": false,
+      "truncate": true
+   },
+   "semicolons": "never",
+   "sortOrder": "alphabetical",
+   "stackedProperties": "never",
+   "trailingWhitespace": "never",
+   "universal": true,
+   "valid": true,
+   "zIndexNormalize": 10,
+   "zeroUnits": "never"
+}
