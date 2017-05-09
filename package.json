@@ -2,10 +2,7 @@
    "name": "test",
    "version": "1.0.0",
    "private": true,
-   "scripts": {
-      "start": "http-server",
-      "build": ""
-   },
+   "scripts": {},
    "devDependencies": {
       "@types/lodash": "^4.14.64",
       "@types/moment": "^2.13.0",
