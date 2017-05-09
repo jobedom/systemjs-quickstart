@@ -15,6 +15,7 @@ System.config({
 
    map: {
       "lodash": "npm:lodash@4.17.4",
+      "moment": "npm:moment@2.18.1",
       "ts": "npm:typescript@2.3.2",
       "ts-runtime": "npm:babel-runtime@5.8.38",
       "typescript": "npm:typescript@2.3.2",
