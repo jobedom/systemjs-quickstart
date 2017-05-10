@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@types/bluebird@^3.5.3":
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/@types/bluebird/-/bluebird-3.5.3.tgz#a2c28be02c0855f526e43785fa326f282402e290"
+"@types/core-js@^0.9.41":
+  version "0.9.41"
+  resolved "https://registry.yarnpkg.com/@types/core-js/-/core-js-0.9.41.tgz#cfeceb63c2beaa29f882252c7c18e0e9471ff4e2"
 
 "@types/lodash@^4.14.64":
   version "4.14.64"
@@ -19,16 +19,6 @@
 "@types/mousetrap@^1.5.33":
   version "1.5.33"
   resolved "https://registry.yarnpkg.com/@types/mousetrap/-/mousetrap-1.5.33.tgz#a0804505e76a6b4e597f35430c57fbe2a67794ef"
-
-"@types/node@*":
-  version "7.0.18"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.18.tgz#cd67f27d3dc0cfb746f0bdd5e086c4c5d55be173"
-
-"@types/superagent@^2.0.36":
-  version "2.0.36"
-  resolved "https://registry.yarnpkg.com/@types/superagent/-/superagent-2.0.36.tgz#e8eec10771d9dbc0f7ec47b8f9993476e4a501c1"
-  dependencies:
-    "@types/node" "*"
 
 abbrev@1:
   version "1.1.0"
