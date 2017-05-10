@@ -11,10 +11,6 @@
       },
       "sourceType": "module"
    },
-   "globals": {
-      "DEBUG": true,
-      "RELEASE": true
-   },
    "rules": {
       "no-const-assign": "warn",
       "no-this-before-super": "warn",

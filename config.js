@@ -1,5 +1,3 @@
-
-
 System.config({
    baseURL: "/src",
    defaultJSExtensions: true,
@@ -16,6 +14,7 @@ System.config({
    },
 
    map: {
+      "document-ready-promise": "npm:document-ready-promise@3.0.1",
       "es6-promise": "npm:es6-promise@4.1.0",
       "lodash": "npm:lodash@4.17.4",
       "moment": "npm:moment@2.18.1",
