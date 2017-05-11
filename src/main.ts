@@ -2,9 +2,12 @@
 import 'whatwg-fetch'
 import 'es6-promise/auto'
 
-import documentMetas from 'utils/document-metas'
+import documentReady from 'utils/document-ready'
+import metas from 'utils/document-metas'
 
-(async () => {
-   const metas = await documentMetas
+(async() => {
+   await Promise.all([
+      documentReady
+   ])
    console.log('metas', metas)
 })()

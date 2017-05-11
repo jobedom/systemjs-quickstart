@@ -1,3 +1,3 @@
-export default (): Promise <boolean> => new Promise(resolve => {
-   setTimeout(() => resolve(true), 0)
-})
+import delay from 'utils/delay'
+
+export default (): Promise < void > => delay(0)

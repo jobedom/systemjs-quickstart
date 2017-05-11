@@ -1,11 +1,17 @@
-import ready from 'document-ready-promise'
-import { fromPairs, map } from 'lodash'
+import documentReady from 'utils/document-ready'
+import { each } from 'lodash'
 
-const getDocumentMetas = (): _.Dictionary<string> => {
-   const metaTags = document.getElementsByTagName('meta')
-   const makePair = tag => [tag.name, tag.content]
-   const metas = fromPairs(map(metaTags, makePair))
-   return metas
+interface IMetas {
+   [key: string]: string
 }
 
-export default ready().then(getDocumentMetas)
+const metas: IMetas = {}
+
+documentReady.then((): void => {
+   const metaTags: NodeListOf < HTMLMetaElement > = document.getElementsByTagName('meta')
+   each(metaTags, (metaTag: HTMLMetaElement): void => {
+      metas[metaTag.name] = metaTag.content
+   })
+})
+
+export default metas
