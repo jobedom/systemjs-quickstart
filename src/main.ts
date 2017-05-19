@@ -1,13 +1,15 @@
-// Polyfills
-import 'whatwg-fetch'
-import 'es6-promise/auto'
+import 'polyfills'
 
 import documentReady from 'utils/document-ready'
-import metas from 'utils/document-metas'
+import documentMetas from 'utils/document-metas'
 
-(async() => {
-   await Promise.all([
-      documentReady
-   ])
-   console.log('metas', metas)
-})()
+const preconditions: Promise < void > [] = [
+   documentReady
+]
+
+async function go() {
+   await Promise.all(preconditions)
+   console.log('metas', documentMetas)
+}
+
+go()
